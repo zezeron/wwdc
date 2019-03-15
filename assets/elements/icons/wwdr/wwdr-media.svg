@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48px" height="28px" viewBox="0 0 48 28">
+  <title>Media</title>
+  <g id="Media" fill="#888">
+    <path id="Rectangle-16" fill-rule="nonzero" d="M5 6.007v15.986C5 24.21 6.79 26 9 26h20c2.208 0 4-1.794 4-4.007V6.007C33 3.79 31.21 2 29 2H9C6.792 2 5 3.794 5 6.007zm-2 0C3 2.69 5.687 0 9 0h20c3.314 0 6 2.685 6 6.007v15.986C35 25.31 32.313 28 29 28H9c-3.314 0-6-2.685-6-6.007V6.007z"/>
+    <path id="Rectangle-16-Copy" d="M0 6.003C0 5.45.444 5 1 5h1v7H1c-.552 0-1-.438-1-1.003V6.003z"/>
+    <path id="Rectangle-17" fill-rule="nonzero" d="M39 10.71v5.58l7 4.878V5.832l-7 4.88zm-2-1.043L48 2v23l-11-7.667V9.667z"/>
+  </g>
+</svg>

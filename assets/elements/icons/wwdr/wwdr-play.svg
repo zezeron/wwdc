@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 50 50">
+  <title>Play</title>
+  <g id="Play" fill="#888" fill-rule="nonzero">
+    <path id="Oval-16" d="M25 50C11.193 50 0 38.807 0 25S11.193 0 25 0s25 11.193 25 25-11.193 25-25 25zm0-2c12.703 0 23-10.297 23-23S37.703 2 25 2 2 12.297 2 25s10.297 23 23 23z"/>
+    <path id="Polygon" d="M19 15.734v18.53L35.004 25 19 15.732zM17 37.73V12.267L38.996 25 17 37.73z"/>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+.developer-router-links {
+	background: #F2F2F2;
+}
+
+.developer-router-links .section-content {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.developer-router-links a.block {
+	width: 216px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.router-icon {
+	margin: 3px auto 9px;
+	height: 50px;
+	width: 50px;
+  background-repeat: no-repeat;
+	background-position: center;
+}
+
+.router-icon-downloads {
+	background-image: url("/elements/icons/wwdr-unified/download.svg");
+}
+
+.router-icon-documentation {
+	background-image: url("/elements/icons/wwdr-unified/document.svg");
+}
+
+.router-icon-payment {
+	background-image: url("/elements/icons/wwdr-unified/payment.svg");
+}
+
+.router-icon-videos {
+	background-image: url("/elements/icons/wwdr-unified/play.svg");
+}
+
+.router-icon-forums {
+	background-image: url("/elements/icons/wwdr-unified/chat_bubble.svg");
+}
+
+.router-icon-testflight {
+	background-image: url("/elements/icons/wwdr-unified/testflight.svg");
+}
+
+.router-icon-connect {
+	background-image: url("/elements/icons/wwdr/app-store.svg");
+}
+
+.router-icon-promote {
+	background-image: url("/elements/icons/wwdr/app-store-promote.svg");
+}
+
+.router-icon-contact {
+	background-image: url("/elements/icons/wwdr/contact.svg");
+}
+
+.developer-router-links + #globalfooter-wrapper > *:first-child {
+	border-top: 1px solid #D6D6D6;
+}
+
+@media only screen and (max-width: 480px) {
+	.developer-router-links .small-6 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.developer-router-links .column:nth-child(odd) {
+		clear: both;
+	}
+}

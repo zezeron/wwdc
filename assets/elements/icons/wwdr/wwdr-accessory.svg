@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36px" height="45px" viewBox="0 0 36 45">
+  <title>Accessory</title>
+  <g id="Accessory" fill="#888">
+    <path id="Rectangle-5" fill-rule="nonzero" d="M6 27.49V12.51C6 9.47 8.467 7 11.5 7c3.04 0 5.5 2.46 5.5 5.51v20.98h2V12.51C19 8.355 15.646 5 11.5 5 7.362 5 4 8.365 4 12.51v14.98h2z"/>
+    <path id="Rectangle-5-Copy" fill-rule="nonzero" d="M30 18v14.98c0 3.04-2.467 5.51-5.5 5.51-3.04 0-5.5-2.46-5.5-5.51V12h-2v20.98c0 4.155 3.354 7.51 7.5 7.51 4.138 0 7.5-3.364 7.5-7.51V18h-2z"/>
+    <path id="Rectangle-6" fill-rule="nonzero" d="M8 29.003C8 29 2 29 2 29v8.997C2 38 8 38 8 38v-8.997zm-8 0C0 27.897.887 27 2 27h6c1.105 0 2 .894 2 2.003v8.994C10 39.103 9.113 40 8 40H2c-1.105 0-2-.894-2-2.003v-8.994z"/>
+    <path id="Rectangle-6-Copy" fill-rule="nonzero" d="M28 17.994C28 18 34 18 34 18c.003 0 0-9.994 0-9.994C34 8 28 8 28 8c-.003 0 0 9.994 0 9.994zm-2-9.988C26 6.898 26.887 6 28 6h6c1.105 0 2 .897 2 2.006v9.988C36 19.102 35.113 20 34 20h-6c-1.105 0-2-.897-2-2.006V8.006z"/>
+    <path id="Rectangle-6-Copy-2" fill-rule="nonzero" d="M29 6h4V2h-4v4zm-2-4.002C27 .895 27.887 0 28.998 0h4.004C34.105 0 35 .887 35 1.998v4.004C35 7.105 34.113 8 33.002 8h-4.004C27.895 8 27 7.113 27 6.002V1.998z"/>
+    <rect id="Rectangle-6-Copy-3" width="2" height="6" x="2" y="39"/>
+    <rect id="Rectangle-6-Copy-4" width="2" height="6" x="6" y="39"/>
+    <path id="Rectangle-6-Copy-5" fill-rule="nonzero" d="M30 5l2-2v2l-2-2h2l-2 2V3l2 2h-2zm0-2h2v2h-2V3zm0 0h2v2h-2V3z"/>
+  </g>
+</svg>

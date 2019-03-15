@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g fill="none" fill-rule="evenodd" transform="translate(4 8)">
+    <g fill="#888">
+      <path fill-rule="nonzero" d="M35,15 L32,15 L32,1.5 C32,0.671572875 31.3284271,0 30.5,0 L1.5,0 C0.671572875,0 0,0.671572875 0,1.5 L0,18.5 C0,19.3284271 0.671572875,20 1.5,20 L10,20 L10,23 L1.5,23 C-0.985281374,23 -3,20.9852814 -3,18.5 L-3,1.5 C-3,-0.985281374 -0.985281374,-3 1.5,-3 L30.5,-3 C32.9852814,-3 35,-0.985281374 35,1.5 L35,15 Z"/>
+      <rect width="33" height="4" y="5"/>
+    </g>
+    <rect width="35" height="23" x="8.5" y="13.5" stroke="#888" stroke-width="3" rx="1.5"/>
+    <g fill="#888" transform="translate(12 30)">
+      <rect width="2" height="3" rx="1"/>
+      <rect width="2" height="3" x="10" rx="1"/>
+      <rect width="2" height="3" x="3" rx="1"/>
+      <rect width="2" height="3" x="13" rx="1"/>
+      <rect width="2" height="3" x="6" rx="1"/>
+      <rect width="2" height="3" x="16" rx="1"/>
+      <rect width="2" height="3" x="23" rx="1"/>
+      <rect width="2" height="3" x="19" rx="1"/>
+      <rect width="2" height="3" x="26" rx="1"/>
+    </g>
+  </g>
+</svg>

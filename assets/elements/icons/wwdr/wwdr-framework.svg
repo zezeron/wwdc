@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50px" height="33px" viewBox="0 0 50 33">
+  <title>Framework</title>
+  <g id="Framework" fill="#888">
+    <path id="Rectangle-7" fill-rule="nonzero" d="M48 31V14.004C48 11.792 46.207 10 43.994 10H6.006C3.793 10 2 11.792 2 14.004V31h46zM0 14.004C0 10.688 2.688 8 6.006 8h37.988C47.31 8 50 10.687 50 14.004V33H0V14.004z"/>
+    <path id="Rectangle-7-Copy" fill-rule="nonzero" d="M33 8V5c0-1.654-1.344-3-2.995-3h-10.01C18.34 2 17 3.343 17 5v3h16zM15 5c0-2.76 2.236-5 4.995-5h10.01C32.765 0 35 2.244 35 5v5H15V5z"/>
+    <rect id="Rectangle-8" width="19" height="2" x="29" y="16"/>
+    <rect id="Rectangle-8-Copy-2" width="19" height="2" x="2" y="16"/>
+    <path id="Rectangle-8-Copy" fill-rule="nonzero" d="M23 15v4h4v-4h-4zm-2-2h8v8h-8v-8z"/>
+  </g>
+</svg>

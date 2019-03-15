@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 50 50">
+  <title>Download</title>
+  <g id="Download" fill="#888">
+    <path id="Oval-16" fill-rule="nonzero" d="M25 50C11.193 50 0 38.807 0 25S11.193 0 25 0s25 11.193 25 25-11.193 25-25 25zm0-2c12.703 0 23-10.297 23-23S37.703 2 25 2 2 12.297 2 25s10.297 23 23 23z"/>
+    <polygon id="Rectangle-13" fill-rule="nonzero" points="18.1602894 28.8397106 16.7460759 30.2539241 25 38.5078483 33.2539241 30.2539241 31.8397106 28.8397106 25 35.6794212"/>
+    <rect id="Rectangle-14" width="2" height="24" x="24" y="12"/>
+  </g>
+</svg>

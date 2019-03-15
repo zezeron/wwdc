@@ -1,0 +1,196 @@
+
+.main {
+    margin: -52px 0 -52px;
+    overflow: initial;
+    background: rgba(18, 26, 47, 1);
+}
+
+figure[data-figure-id="image-hero-1"], figure[data-figure-id="image-hero-2"], figure[data-figure-id="image-hero-3"], figure[data-figure-id="image-hero-4"] {
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: 50.5% top;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-height: 570px) and (min-width: 735px) {
+    .video-container {
+        opacity: 0;
+        transition: visibility 0s 0.5s, opacity 0.5s linear;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    .video-container {
+        opacity: 0;
+        transition: visibility 0s 0.5s, opacity 0.5s linear;
+    }
+}
+
+figure[data-figure-id="image-hero-1"] {
+    background-image: url("/images/hero/wwdc19-robot-large_2x.jpg");
+}
+
+figure[data-figure-id="image-hero-2"] {
+    background-image: url("/images/hero/wwdc19-alien-large_2x.jpg");
+}
+
+figure[data-figure-id="image-hero-3"] {
+    background-image: url("/images/hero/wwdc19-monkey-large_2x.jpg");
+}
+
+figure[data-figure-id="image-hero-4"] {
+    background-image: url("/images/hero/wwdc19-skull-large_2x.jpg");
+}
+
+@media only screen and (max-width: 1068px) {
+    figure[data-figure-id="image-hero-1"], figure[data-figure-id="image-hero-2"], figure[data-figure-id="image-hero-3"], figure[data-figure-id="image-hero-4"] {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 83vh;
+        background-size: cover;
+        background-position: 50.5% top;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    figure[data-figure-id="image-hero-1"] {
+        background-image: url("/images/hero/wwdc19-robot-medium_2x.jpg");
+    }
+
+    figure[data-figure-id="image-hero-2"] {
+        background-image: url("/images/hero/wwdc19-alien-medium_2x.jpg");
+    }
+
+    figure[data-figure-id="image-hero-3"] {
+        background-image: url("/images/hero/wwdc19-monkey-medium_2x.jpg");
+    }
+
+    figure[data-figure-id="image-hero-4"] {
+        background-image: url("/images/hero/wwdc19-skull-medium_2x.jpg");
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    figure[data-figure-id="image-hero-1"], figure[data-figure-id="image-hero-2"], figure[data-figure-id="image-hero-3"], figure[data-figure-id="image-hero-4"] {
+        width: 100%;
+        height: 65vh;
+        background-size: cover;
+        background-position: 50.5% top;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-top: 4vh;
+    }
+
+    .typography-intro, .intro {
+        font-size: 17px !important;
+    }
+
+    .typography-headline-reduced, h2, .typography-section-headline {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    figure[data-figure-id="image-hero-1"] {
+        background-image: url("/images/hero/wwdc19-robot-medium_2x.jpg");
+    }
+
+    figure[data-figure-id="image-hero-2"] {
+        background-image: url("/images/hero/wwdc19-alien-medium_2x.jpg");
+    }
+
+    figure[data-figure-id="image-hero-3"] {
+        background-image: url("/images/hero/wwdc19-monkey-medium_2x.jpg");
+    }
+
+    figure[data-figure-id="image-hero-4"] {
+        background-image: url("/images/hero/wwdc19-skull-medium_2x.jpg");
+    }
+}
+
+.section-main {
+    position: relative;
+}
+
+.section-block {
+    padding: 5vh 0;
+}
+
+.section-grid-content {
+    padding: 0;
+    text-align: center;
+}
+
+.hero-copy {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* .hero-copy-inner {
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+} */
+
+.no-cover video,
+.no-cover .endframe,
+.no-cover .video-container {
+    height: 100vh;
+}
+
+.video-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 26, 47, 1);
+    will-change: opacity;
+}
+
+.dn-arrow span {
+    display: block;
+    font-size: 1.8em;
+    transform: translateY(10px);
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: 1.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition-delay: 0.5s;
+}
+
+.trigger .hero-copy,
+.trigger .dn-arrow span {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section-hero {
+    /* position: sticky;
+    position: -webkit-sticky; */
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    will-change: opacity, filter;
+}
