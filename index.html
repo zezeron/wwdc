@@ -31,248 +31,42 @@
 </head>
 <body class="theme-dark bg-dark-blue">
 <link rel="stylesheet" property="stylesheet" href="assets/styles/localnav.css" type="text/css"/>
-<nav id="localnav" class="localnav localnav-scrim" data-sticky role="navigation">
+<nav id="localnav" class="localnav ">
     <div class="localnav-wrapper">
-        <div class="localnav-background" style="background: #121a2f !important"></div>
         <div class="localnav-content">
             <h2 class="localnav-title">
                 <a class="ac-ln-title-logo" href="index.html">
-                   Wallpapers for  <img class="masthead" alt="WWDC19" src="images/masthead-19.svg" role="img"></a> 
+                    Wallpapers for <img class="masthead" alt="WWDC19" src="images/masthead-19.svg" role="img"></a>
             </h2>
-
-            <div class="localnav-menu">
-           
-                <div class="localnav-actions localnav-actions-center">
-                
-                    <div class="localnav-action localnav-action-button">
-                        <a class="localnav-button button button-compact" href="wwdc19WallpaperPack.zip"> Download 
-                            <span class="localnav-action-product">Download</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </nav>
-<label id="localnav-curtain" for="localnav-menustate"></label>
-<script src="assets/scripts/ac-localnav.built.js"></script>
-
 
 <main id="main" class="main main-overview margin-bottom" role="main">
 
-    <section aria-hidden="true" class="section section-hero">
-        <div class="video-container" data-animator='{
-					"recalcOnResize": false,
-					"scrollOffset": true,
-					"range": [0, 0],
-					"opacity": [1.0, 1.0]
-				}'>
+    <section class="section section-hero">
+        <div>
             <div data-toggle="image-hero">
                 <figure class="image-hero endframe" data-figure-id="image-hero-1"></figure>
                 <figure class="image-hero endframe" data-figure-id="image-hero-2"></figure>
                 <figure class="image-hero endframe" data-figure-id="image-hero-3"></figure>
                 <figure class="image-hero endframe" data-figure-id="image-hero-4"></figure>
             </div>
-            <video style="display:none;">
-            </video>
+
         </div>
+        <div class="hero-copy">
+            <div class="hero-copy-inner">
+                <h2 class="typography-headline-reduced">Download WWDC Wallpapers</h2>
+                <h2 class="typography-intro">Apple Worldwide Developers Conference Wallpaper Pack<br>
+                    Write code. Blow minds.</h2>
+
+            </div>
+            <p><span>   <a class="localnav-button button button-compact"
+                           href="wwdc19WallpaperPack.zip"> Downloads   <span
+                    class="localnav-action-product">Download</span>         </a></span></p>
+        </div>
+
     </section>
-
-    <div class="hero-copy" aria-hidden="true">
-        <div class="hero-copy-inner" data-animator='{
-				"range": [0.10, 0.40],
-				"opacity": [1, 0],
-				"transform": [{"translateY":"0px"}, {"translateY":"0px"}]
-			}'><h2 class="typography-headline-reduced">Write code. Blow minds.</h2>
-            <h2 class="typography-intro">Apple Worldwide Developers Conference<br>
-                San Jose, CA, June 3–7</h2>
-        </div>
-        <p class="dn-arrow" data-animator='{
-				"range": [0.01, 0.1],
-				"opacity": [1, 0],
-				"transform": [{"translateY":"0px"}, {"translateY":"10px"}]
-			}'><span></span></p>
-    </div>
-
-    <div class="section-main">
-
-        <section class="section section-block">
-            <div class="section-grid-content section-grid-hero">
-                <h2 class="typography-headline-reduced" data-animator='{
-						"range": [0.23, 0.50],
-						"opacity": [0, 1]
-					}'>Write code. Blow minds.</h2>
-                <p class="intro" data-animator='{
-						"range": [0.23, 0.50],
-						"opacity": [0, 1]
-					}'><strong>San Jose, CA, June 3–7</strong><br>This is not an invitation. It‘s a challenge.<br>This
-                    is your chance to join thousands of coders, creators, and crazy ones this summer to do the insanely
-                    great.</p>
-            </div>
-        </section>
-
-        <div class="section-content">
-            <div class="row">
-                <div class="column large-6 medium-12">
-                    <section class="section section-block">
-                        <div class="section-grid-content">
-                            <img src="images/icons/sessions.jpg" width="150" alt="Sessions" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'/>
-                            <h2 class="typography-callout c-pink" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Sessions</h2>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Immerse yourself in over 100 technical and design-focused sessions presented by Apple
-                                engineers to help you build the next generation of apps using newly announced Apple&nbsp;technologies.</p>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'></p>
-                        </div>
-                    </section>
-                </div>
-                <div class="column large-6 medium-12">
-                    <section class="section section-block">
-                        <div class="section-grid-content">
-                            <img src="images/icons/labs.jpg" width="150" alt="Labs" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'/>
-                            <h2 class="typography-callout c-cgray" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Hands-On Labs</h2>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Get in-depth details on how to implement new features, directly from the engineers
-                                who helped build the latest advances in Apple platforms. Receive guidance on the
-                                fundamentals, suggestions for coding issues, and&nbsp;more.</p>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'></p>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="section-content">
-            <div class="row">
-                <div class="column large-6 medium-12">
-                    <section class="section section-block">
-                        <div class="section-grid-content">
-                            <img src="images/icons/consultations.jpg" width="150" alt="Consultations" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'/>
-                            <h2 class="typography-callout c-purple" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Consultations</h2>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Make an appointment to take your apps to the next level with one-on-one guidance from
-                                experts on user interface design, accessibility, app review, marketing, analytics, app
-                                distribution, and more.</p>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'></p>
-                        </div>
-                    </section>
-                </div>
-
-                <div class="column large-6 medium-12">
-                    <section class="section section-block">
-                        <div class="section-grid-content">
-                            <img src="images/icons/special-events.jpg" width="150" alt="Special Events" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'/>
-                            <h2 class="typography-callout c-yellow" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Special Events</h2>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Take advantage of a full week of exciting experiences, including connecting with
-                                fellow developers, gaining valuable insights from guest speakers, celebrating with great
-                                food and music, and more.</p>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'></p>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="section-content">
-            <div class="row">
-                <div class="column large-6 medium-12">
-                    <section class="section section-block">
-                        <div class="section-grid-content">
-                            <img src="images/icons/tickets.jpg" width="150" alt="Tickets" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'/>
-                            <h2 class="typography-callout c-vblue" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Tickets</h2>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>The opportunity to buy tickets to WWDC19 is offered by random selection. Registration
-                                is open until Wednesday, March&nbsp;20, 2019 at 5:00&nbsp;p.m. PDT.<sup>*</sup></p>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'><a href="register/index.html" class="more">Learn more</a></p>
-                        </div>
-                    </section>
-                </div>
-                <div class="column large-6 medium-12">
-                    <section class="section section-block">
-                        <div class="section-grid-content">
-                            <img src="images/icons/scholarships.jpg" width="150" alt="Scholarships" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'/>
-                            <h2 class="typography-callout c-gray" data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Scholarships</h2>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'>Students and STEM organization members can apply to receive a conference ticket,
-                                lodging, and one year of membership in the Apple Developer Program.</p>
-                            <p data-animator='{
-									"range": [0, 0.15],
-									"opacity": [0.01, 1]
-								}'><a href="scholarships/index.html" class="more">Learn more</a></p>
-                        </div>
-                    </section>
-                </div>
-
-            </div>
-        </div>
-
-    </div> <!--.section-main-->
-
 </main>
 
 <script src="js/toggle.js"></script>
@@ -283,52 +77,42 @@
 
         <section class="footer-sosumi">
             <ul>
-                <li>WWDC19 will take place June 3-7, 2019 at the McEnery Convention Center in San Jose, California,
-                    USA.
+                <li>Wallpapers Pack created by zezeron
                 </li>
-                <li>* To register, you must be a member of the Apple Developer Program or Apple Developer Enterprise
-                    Program as of March 14, 2019 at 9:00 a.m. PDT, and agree to the <a href="policy/index.html"
-                                                                                       target="_blank">WWDC19&nbsp;Registration
-                        and Attendance Policy</a>. Your membership must be current, valid, and in good standing from
-                    this date until the end of WWDC19.
-                </li>
+
             </ul>
         </section>
 
         <nav class="footer-breadcrumbs" aria-label="Breadcrumbs">
-            <a href="/index.html" class="home footer-breadcrumbs-home">
-                <span class="footer-breadcrumbs-home-icon"></span>
-                <span class="footer-breadcrumbs-home-label">Developer</span>
-            </a>
+
             <div class="footer-breadcrumbs-path">
                 <ol class="footer-breadcrumbs-list">
-                    <li class="footer-breadcrumbs-item">WWDC</li>
+                    <li class="footer-breadcrumbs-item">
+                        <a class="footer-mini-legal-link"
+                           href="https://instagram.com/zezeron" target="_blank">Instagram</a>
+                    </li>
+                    <li class="footer-breadcrumbs-item">
+                        <a class="footer-mini-legal-link"
+                           href="https://twitter.com/zezeron" target="_blank">Twitter</a>
+                    </li>
+                    <li class="footer-breadcrumbs-item">
+                        <a class="footer-mini-legal-link"
+                           href="https://github.com/zezeron" target="_blank">Github</a></li>
+
                 </ol>
             </div>
         </nav>
         <nav class="footer-directory" aria-label="Apple Directory" role="navigation"></nav>
         <section class="footer-mini" vocab="http://schema.org/" typeof="Organization">
-            <div class="footer-mini-news"> To receive the latest developer news, visit and subscribe to our <a
-                    href="/news/index.html">News and Updates</a>.
+            <div class="footer-mini-news"> Direct Message for WhatsApp <a
+                    href="http://directmessage.xyz"> WhatsApp Business for iOS </a>.
             </div>
             <div class="footer-mini-locale">
-                <a class="footer-mini-locale-link footer-mini-locale-lang" href="/cn/index.html" lang="zh">简体中文</a>
-                <a class="footer-mini-locale-link footer-mini-locale-lang" href="/jp/index.html" lang="ja">日本語</a>
-                <a class="footer-mini-locale-link footer-mini-locale-lang" href="/kr/index.html" lang="ko">한국어</a>
+                <a class="footer-mini-locale-link footer-mini-locale-lang" href="http://metromedya.com/en" lang="en">metromedya</a>
             </div>
             <div class="footer-mini-legal">
                 <div class="footer-mini-legal-copyright">Copyright © 2019 Apple Inc. All rights reserved.</div>
-                <div class="footer-mini-legal-links">
-                    <a class="footer-mini-legal-link" href="https://www.apple.com/privacy/privacy-policy/">Privacy
-                        Policy</a>
-                    <a class="footer-mini-legal-link"
-                       href="https://www.apple.com/legal/internet-services/terms/site.html" class="first">Terms of
-                        Use</a>
-                    <a class="footer-mini-legal-link" href="/bug-reporting/index.html">Report Bugs</a>
-                    <a class="footer-mini-legal-link"
-                       href="https://developer.apple.com/contact/submit/?subject=website-feedback">Feedback</a>
 
-                </div>
             </div>
         </section>
     </div>

@@ -1054,27 +1054,27 @@ html[dir=rtl] .footer-breadcrumbs-item:before {
 }
 
 .localnav.localnav-scrim .localnav-background:after {
-    height: 0px !important;
+    /*    height: 0px !important;*/
 }
 
 .localnav.localnav-scrim .localnav-background {
-    border-bottom: 0.3px solid #444444;
+    /*    border-bottom: 1.3px solid #444444;*/
 }
 
 .localnav {
-    height: 56px !important;
+    /*    height: 56px !important;*/
 }
 
 .localnav .localnav-menu-link {
-    color: white;
+    /*    color: white;*/
 }
 
 .localnav .localnav-menu-link a:hover {
-    color: #66bbff;
+    /*    color: #66bbff;*/
 }
 
 .localnav .localnav-menu-link.current, .localnav .localnav-menu-link.current {
-    color: rgba(255, 255, 255, 0.6);
+    /*    color: rgba(255, 255, 255, 0.6);*/
 }
 
 .theme-dark {
@@ -1094,15 +1094,21 @@ html[dir=rtl] .footer-breadcrumbs-item:before {
 }
 
 .localnav-action .button.button-compact, .button.button-scholarships, .button.button-register {
-    background: url("/images/button.svg") !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    border: 0px solid #000 !important;
-    color: #4670FF !important;
+
+    /*    background-repeat: no-repeat !important;*/
+    /*    border: 1px solid #000 !important;*/
+    /*    color: #4670FF !important;*/
+    font-weight: 500;
+    letter-spacing: 0.01em;
+
+    font-size: 1.1em;
+    line-height: 1.33341;
+    letter-spacing: 0.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .localnav-action .button.button-compact:hover, .button.button-scholarships:hover, .button.button-register:hover {
-    color: #6e90ff !important;
+    color: #d5eafc !important;
 }
 
 .localnav-action .button.button-compact {
