@@ -32,19 +32,19 @@ figure[data-figure-id="image-hero-1"], figure[data-figure-id="image-hero-2"], fi
 }
 
 figure[data-figure-id="image-hero-1"] {
-    background-image: url("/images/hero/wwdc19-robot-large_2x.jpg");
+    background-image: url("../images/hero/wwdc19-robot-large_2x.jpg");
 }
 
 figure[data-figure-id="image-hero-2"] {
-    background-image: url("/images/hero/wwdc19-alien-large_2x.jpg");
+    background-image: url("../images/hero/wwdc19-alien-large_2x.jpg");
 }
 
 figure[data-figure-id="image-hero-3"] {
-    background-image: url("/images/hero/wwdc19-monkey-large_2x.jpg");
+    background-image: url("../images/hero/wwdc19-monkey-large_2x.jpg");
 }
 
 figure[data-figure-id="image-hero-4"] {
-    background-image: url("/images/hero/wwdc19-skull-large_2x.jpg");
+    background-image: url("../images/hero/wwdc19-skull-large_2x.jpg");
 }
 
 @media only screen and (max-width: 1068px) {
