@@ -63,19 +63,19 @@ figure[data-figure-id="image-hero-4"] {
 
 @media only screen and (max-width: 1068px) {
     figure[data-figure-id="image-hero-1"] {
-        background-image: url("/images/hero/wwdc19-robot-medium_2x.jpg");
+        background-image: url("../images/hero/wwdc19-robot-medium_2x.jpg");
     }
 
     figure[data-figure-id="image-hero-2"] {
-        background-image: url("/images/hero/wwdc19-alien-medium_2x.jpg");
+        background-image: url("../images/hero/wwdc19-alien-medium_2x.jpg");
     }
 
     figure[data-figure-id="image-hero-3"] {
-        background-image: url("/images/hero/wwdc19-monkey-medium_2x.jpg");
+        background-image: url("../images/hero/wwdc19-monkey-medium_2x.jpg");
     }
 
     figure[data-figure-id="image-hero-4"] {
-        background-image: url("/images/hero/wwdc19-skull-medium_2x.jpg");
+        background-image: url("../images/hero/wwdc19-skull-medium_2x.jpg");
     }
 }
 
@@ -101,19 +101,19 @@ figure[data-figure-id="image-hero-4"] {
 
 @media only screen and (max-width: 735px) {
     figure[data-figure-id="image-hero-1"] {
-        background-image: url("/images/hero/wwdc19-robot-medium_2x.jpg");
+        background-image: url("../images/hero/wwdc19-robot-medium_2x.jpg");
     }
 
     figure[data-figure-id="image-hero-2"] {
-        background-image: url("/images/hero/wwdc19-alien-medium_2x.jpg");
+        background-image: url("../images/hero/wwdc19-alien-medium_2x.jpg");
     }
 
     figure[data-figure-id="image-hero-3"] {
-        background-image: url("/images/hero/wwdc19-monkey-medium_2x.jpg");
+        background-image: url("../images/hero/wwdc19-monkey-medium_2x.jpg");
     }
 
     figure[data-figure-id="image-hero-4"] {
-        background-image: url("/images/hero/wwdc19-skull-medium_2x.jpg");
+        background-image: url("../images/hero/wwdc19-skull-medium_2x.jpg");
     }
 }
 
